@@ -1,0 +1,38 @@
+-- config.lua
+return function(modules)
+    -- Configuration table that will be merged with main
+    local CONFIG = {
+        IRC_ACCESS_KEY = "$2a$10$haU6YIqH8JwrPqhwOGTw5OkdstOsbeum.DvTUrOx5Lgs/DDh9R/Cy",
+        IRC_BIN_ID = "69b0b8ee864efc355b5ef988",
+        IRC_POLL_RATE = 4,
+        IRC_MAX_MSGS = 20,
+        IRC_BASE_URL = "https://api.jsonbin.io/v3/b/",
+        
+        DISCORD_INVITE = "https://discord.gg/7P8Jaa9fp8",
+        WEBHOOK_URL = "https://discord.com/api/webhooks/1481416163287105626/C1a1vMaWHxKrVX1C3knVebeHqsUCj19NcWZ8W1I7FPYt9YHiYn8pXVcUhTFHAYFmQXOP",
+        PREMIUM_WEBHOOK = "https://discord.com/api/webhooks/1481416163287105626/C1a1vMaWHxKrVX1C3knVebeHqsUCj19NcWZ8W1I7FPYt9YHiYn8pXVcUhTFHAYFmQXOP",
+        
+        VALID_KEYS = {
+            ["mad"] = true,
+            ["test"] = true,
+            ["premium2024"] = true,
+            ["vip_access"] = true,
+            ["feather_pro"] = true,
+        },
+        
+        FREE_SCRIPTS = {
+            { name="Universal",   desc="Works on most games",                    icon="⚔️", tag="FREE",    url="https://raw.githubusercontent.com/MADMONEYDISTRO/madmoney-ghost-client/refs/heads/main/good%20kill%20all%20fr" },
+            { name="Drive World",          desc="Autofarm + trailer delivery",             icon="🚗", tag="FREE",    url="https://raw.githubusercontent.com/MADMONEYDISTRO/feather-hub/refs/heads/main/test" },
+            { name="Notoriety",            desc="Only working script for this game",       icon="💰", tag="FREE",    url="https://raw.githubusercontent.com/MADMONEYDISTRO/madmoney-ghost-client/refs/heads/main/dsasd" },
+            { name="BGSI Event Farm",      desc="Auto flower farm for the event",          icon="🌸", tag="FREE",    url="https://raw.githubusercontent.com/MADMONEYDISTRO/feather-hub/refs/heads/main/flower" },
+            { name="99 Nights",            desc="Kill aura, campfire, cook, item ESP/TP", icon="🏕️", tag="FREE",    url="https://raw.githubusercontent.com/MADMONEYDISTRO/feather-hub/refs/heads/main/99" },
+            { name="Tha Bronx Item Dupe",  desc="Hold item then press dupe",              icon="🔄", tag="FREE",    url="https://raw.githubusercontent.com/MADMONEYDISTRO/feather-hub/refs/heads/main/dupe" },
+            { name="Blade Ball", desc="Auto parry, auto dodge, ESP", icon="⚽", tag="FREE", url="https://raw.githubusercontent.com/MADMONEYDISTRO/feather-hub/refs/heads/main/bladeball" },
+            { name="Pet Sim 99", desc="Auto farm, auto hatch, auto sell", icon="🐾", tag="FREE", url="https://raw.githubusercontent.com/MADMONEYDISTRO/feather-hub/refs/heads/main/petsim" },
+            { name="Tower Defense", desc="Auto place, instant win, infinite money", icon="🏰", tag="FREE", url="https://raw.githubusercontent.com/MADMONEYDISTRO/feather-hub/refs/heads/main/tds" },
+            { name="Fisch", desc="Auto fish, auto sell, instant catch", icon="🎣", tag="FREE", url="https://raw.githubusercontent.com/MADMONEYDISTRO/feather-hub/refs/heads/main/fisch" },
+        },
+        
+        PREMIUM_SCRIPTS = {
+            { name="Legends of Speed",  desc="OP Farm (1B+ per hour)",   icon="⚡", tag="PRIVATE", url="https://raw.githubusercontent.com/MADMONEYDISTRO/feather-hub/refs/heads/main/test" },
+            {
